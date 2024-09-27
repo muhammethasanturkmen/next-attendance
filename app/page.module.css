@@ -1,0 +1,100 @@
+.student {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.liste {
+  list-style: none;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.liste:hover {
+  transform: translateY(-2px); 
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.yoklama {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  padding: 100px;
+  background-color: #e3e8ec;
+}
+
+.leftliste {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #ffffff;
+  padding: 50px;
+  height: 100%;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: #ffffff;
+  color: black; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #f0f0f0; 
+}
+
+.studentcontainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.studenttitle {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.studentinfo {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.stats {
+  margin-top: 20px; 
+  font-size: 1.2rem;
+  text-align: center;
+  color: #555; 
+}
